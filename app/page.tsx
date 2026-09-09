@@ -4,15 +4,15 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* Header */}
-      <header className="flex items-center justify-between px-8 py-5 max-w-7xl mx-auto relative z-20">
-        <img src="/nexx-logo-primary.png" alt="Nexx Healthcare Solution" className="h-20 w-auto" />
-        <nav className="hidden md:flex gap-8 text-sm font-medium text-foreground/80">
-          <a href="#services" className="hover:text-accent transition">Services</a>
-          <a href="#why" className="hover:text-accent transition">Why Nexx</a>
-          <a href="/resources" className="hover:text-accent transition">Resources</a>
-          <a href="/contact" className="hover:text-accent transition">Contact</a>
+      <header className="flex items-center justify-between px-8 py-5 max-w-7xl mx-auto relative z-20 gap-6">
+        <img src="/nexx-logo-secondary.png" alt="Nexx Healthcare Solution" className="h-16 w-auto shrink-0" />
+        <nav className="hidden md:flex items-center gap-1 bg-card rounded-full p-1.5 border border-accent/10">
+          <a href="#services" className="px-5 py-2 rounded-full text-sm font-medium text-foreground/70 hover:bg-white hover:text-accent hover:shadow-sm transition-all">Services</a>
+          <a href="#why" className="px-5 py-2 rounded-full text-sm font-medium text-foreground/70 hover:bg-white hover:text-accent hover:shadow-sm transition-all">Why Nexx</a>
+          <a href="/resources" className="px-5 py-2 rounded-full text-sm font-medium text-foreground/70 hover:bg-white hover:text-accent hover:shadow-sm transition-all">Resources</a>
+          <a href="/contact" className="px-5 py-2 rounded-full text-sm font-medium text-white bg-accent hover:bg-accent-dark transition-all">Contact</a>
         </nav>
-        <img src="/nexx-logo-secondary.png" alt="Nexx Healthcare Solution" className="h-16 w-auto" />
+        <img src="/nexx-logo-primary.png" alt="Nexx Healthcare Solution" className="h-20 w-auto shrink-0" />
       </header>
 
       {/* Top contact strip */}
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services, linked to detail pages */}
+      {/* Services */}
       <section id="services" className="py-24">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">

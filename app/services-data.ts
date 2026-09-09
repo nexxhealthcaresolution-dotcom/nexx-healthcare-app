@@ -128,4 +128,24 @@ export const services: Service[] = [
       "Final certification support",
     ],
   },
+  {
+    slug: "gipsa-gic-empanelment",
+    title: "GIPSA & GIC Empanelment",
+    shortDesc: "General insurance empanelment for hospitals and healthcare networks.",
+    overview:
+      "GIPSA (General Insurers' Public Sector Association) and GIC empanelment allows hospitals to offer cashless treatment to patients covered under public sector general insurance policies. Nexx Healthcare Solution manages documentation, tariff alignment, and the empanelment process with these insurers.",
+    benefits: [
+      "Access to patients covered under public sector insurance schemes",
+      "Cashless treatment tie-ups that reduce billing friction",
+      "Broader hospital network recognition",
+      "Structured, transparent tariff and claims alignment",
+    ],
+    process: [
+      "Eligibility review and documentation preparation",
+      "Tariff submission aligned with GIPSA/GIC packages",
+      "Application submission and liaison with insurers",
+      "Inspection and query resolution support",
+      "Final empanelment and claims process onboarding",
+    ],
+  },
 ];
